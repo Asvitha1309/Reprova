@@ -50,34 +50,6 @@ When the AI successfully recreates the crash, developers receive:
 - **Playwright**: Generated reproduction scripts
 - **LLM**: Interprets the report and decides what to do on the page
 
-## Getting Started
-
-> Fill in the details below to match your actual setup.
-
-```bash
-# 1. Clone the repository
-git clone <your-repo-url>
-cd <your-repo-folder>
-
-# 2. Install dependencies
-npm install
-
-# 3. Add your API keys to a .env file
-BROWSERBASE_API_KEY=your_key_here
-BROWSERBASE_PROJECT_ID=your_project_id_here
-LLM_API_KEY=your_key_here
-
-# 4. Run the agent
-npm start
-```
-
-## Usage
-
-1. Open the app and paste in a bug report, e.g. `"The checkout page is broken!"`.
-2. Enter the URL of the website to test.
-3. Let the agent explore and try to reproduce the bug.
-4. Download the Bug Fix Package (steps, video, Playwright script).
-
 ## Why This Project Matters
 
 - **It solves a real problem.** Every tech company struggles with reproducing bugs, and automating it saves time and money.
@@ -88,9 +60,9 @@ npm start
 
 Built by first-year CSE students at CIT Chennai.
 
-- Asvitha K ([GitHub](https://github.com/Asvitha1309) | [LinkedIn](https://www.linkedin.com/in/asvitha-k-4a893841b/))
-- _Add teammates here_
+- Asvitha K 
+- Kanishka
+- Rithanya
 
-## License
-
-_Add a license (e.g. MIT) here._
+  ## Mentor
+  - Sujey
